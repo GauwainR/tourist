@@ -8,11 +8,14 @@ body {
 a { text-decoration: none; color: navy; }
 @font-face {
 	font-family: "EFNMacStyle8px"; 
-	src: local("pixel"),
-		url(/fonts/pixel.ttf) format("ttf");
-	font-family: "Accuratist";
+	src: local("EFNMacStyle8px"),
+		url(/fonts/pixel.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Accuratist"; 
 	src: local("Accuratist"),
-		url(/fonts/header-name.otf) format("otf");
+		url(/fonts/accuratist.ttf) format("truetype");
 }
 
 .main {
@@ -689,7 +692,7 @@ a { text-decoration: none; color: navy; }
 			justify-content: space-between;
 			align-items: center;
 			margin: auto 0;
-			width: 235px;xt
+			width: 235px;
 			height: 38px;
 			p {
 				margin: 0;
