@@ -11,11 +11,11 @@ a {
 }
 @font-face {
   font-family: "EFNMacStyle8px";
-  src: local("EFNMacStyle8px"), url(/fonts/pixel.ttf) format("truetype");
+  src: local("EFNMacStyle8px"), url(../fonts/pixel.ttf) format("truetype");
 }
 @font-face {
   font-family: "Accuratist";
-  src: local("Accuratist"), url(/fonts/accuratist.ttf) format("truetype");
+  src: local("Accuratist"), url(../fonts/accuratist.ttf) format("truetype");
 }
 .main {
   display: -webkit-box;
