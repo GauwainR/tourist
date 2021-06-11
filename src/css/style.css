@@ -165,10 +165,13 @@ nav ul {
   margin-right: 600px;
   -webkit-transition: 1.5s;
   transition: 1.5s;
+  /*Скорость перехода состояния элемента*/
   -webkit-animation: feedbacks 0s 1;
           animation: feedbacks 0s 1;
+  /* Указываем название анимации, её время и количество повторов*/
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  /* Чтобы элемент оставался в конечном состоянии анимации */
 }
 .start-page .greetings p {
   margin-left: 24px;
@@ -460,7 +463,7 @@ nav ul {
 }
 .events .wrapper,
 .zones .wrapper {
-  height: 951px;
+  height: 1001px;
   width: 1092px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,10 +508,47 @@ nav ul {
 }
 .events .event-section,
 .zones .event-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 330px;
-  height: 450px;
+  height: 470px;
   text-align: center;
   border: 1px solid #478AC9;
+}
+.events .more,
+.zones .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 30px;
+  background: #0283FC;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.26em;
+  margin-bottom: 10px;
+}
+.events .more a,
+.zones .more a {
+  margin: 0 auto;
 }
 .events .fisrt-row-events,
 .zones .fisrt-row-events {
@@ -575,6 +615,7 @@ nav ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 8px;
+  margin-top: 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
