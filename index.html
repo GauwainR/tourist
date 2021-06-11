@@ -1,301 +1,228 @@
- <!DOCTYPE html>
- <html>
- <head>
- 	<title>Alexander</title>
- 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="src/css/style.css">
-	<link rel="stylesheet" type="text/css" href="src/css/normalize.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<title>Турист-pro</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#"><img src="src/img/logo.png" alt="Логотип"></a>
+			<ul>
+				<a href="#events">
+					<li>Акции</li>
+				</a>
+				<a href="search.html">
+					<li>Поиск</li>
+				</a>
+				<a href="booking.html">
+					<li>Управление бронированием</li>
+				</a>
+			</ul>
+		</nav>
+		<div class="line"></div>
+		<div class="start-page">
+			<img src="src/img/start_page.png" alt="">
+			<div class="greetings">
+				<p class="title">ТуристПро</p>
+				<p class="title-about">Наша цель - сделать любой поход удобным, комфортным и безопасным. </p>
+				<p class="title-about">Девиз компании «Турист-pro»: Исполнить мечты просто!</p>
+			<div>
+		</div>
+	</header>
+	<div class="line"></div>
+	<section class="feedbacks">
+		<div class="wrapper">
+			<div class="vert-feedback">
+				<p class="name">Анна</p>
+				<div class="line"></div>
+				<p class="comment">Купила тур в Имеретинку по кэшбэку -20% в Бархатные сезоны 3*. Кэшбэк пришел на 2й день! Отель понравился, большая территория, до моря от Семейного квартала пройти 7 мин, есть бассейн 25 метров с подогревом! Сама Имеретинская набережная понравилась, вернусь сюда летом!</p>
+			</div>
+			<div class="hor-feedbacks">
+				<div class="hor-feedback">
+					<p class="name">Андрей</p>
+					<div class="line"></div>
+					<p class="comment">Здравствуйте. После этой пандемии взяли тур в Сочи, на лето, а в феврале слетали в Стамбул. Большое спасибо, что работаете, что все обьясняете, помогаете с документами, анкетами на вьезд в страну. До новых встреч!</p>
+				</div>
+				<div class="hor-feedback">
+					<p class="name">Евгений</p>
+					<div class="line"></div>
+					<p class="comment">Огромное спасибо турагентству  за помощь в организации моего отдыха. Отлично подобранный отель, удобные стыковки по перелёту и постоянная информационная поддержка , сделали мой отдых великолепным!!!</p>
+				</div>
+			</div>
+			<div class="vert-feedback">
+				<p class="name">Ирина</p>
+				<div class="line"></div>
+				<p class="comment">Хочу выразить свою благодарность "Турист ПРО" за шикарный отдых в Занзибаре. За трепетное отношение к свом клиентам. За то что вкладывают душу, начиная от подбора тура, до отьезда и приезда в родную страну. Консультировали и помогали, когда мы находились за пределами дома. Спасибо, Василий, за неровнодушие и участие в нашем отдыхе!!!!</p>
+			</div>
+		</div>
+	</section>
+	<div class="line"></div>
+	<section class="booking">
+		<p class="title">Бронирование тура происходит в несколько этапов</p>
+		<div class="steps-section">
+			<div class="first-row-section">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 1</p>
+						<div class="line">	</div>
+					</div>
+					<p class="step-descpription">Заполнение данных туристов и заказчика тура</p>
+				</div>
+				<img src="src/img/arrow.png">
+				<div class="step">
+					<div class="step-title">
+						<p class="step-title title">Шаг 2</p>
+						<div class="line">	</div>
+					</div>
+					<p class="step-descpription">Выбор способа оплаты тура</p>
+				</div>
+				<img src="src/img/arrow.png">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 3</p>
+						<div class="line">	</div>
+					</div>
+					<p class="step-descpription">знакомство с договором и проверка параметров тура</p>
+				</div>
+				<img src="src/img/arrow.png">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 4</p>
+						<div class="line">	</div>
+					</div>
+					<p class="step-descpription">Оплата</p>
+				</div>
 
- </head>
- <body>
- 	<div class="main">
- 		<div class="main-overlay-1"></div>
- 		<div class="header">
- 			<div class="show-menu">
- 				<div class="sm-line"></div>
- 				<div class="md-line"></div>
- 				<div class="bg-line"></div>
- 			</div>
- 			<div class="menu">
- 				<nav>
- 					<ul>
- 						<li><a href="#">Главная</a></li>
- 						<li><a href="#">Навыки</a></li>
- 						<li><a href="#">Проекты</a></li>
- 						<li><a href="#">Отзывы</a></li>
- 						<li><a href="#">Обратная связь</a></li>
- 					</ul>
- 				</nav>
- 			</div>
- 			<div class="logo">
- 				<div class="name">
- 					<p>ALEXANDER</p>
- 						<div class="line"></div>
- 					<p>KARACHKIN</p>
- 				</div>
- 				<p class="profession">	web-developer
- 				</p>
- 				<div class="line"></div>
- 			</div>
- 		</div>
- 		<a href="#down-about">
- 			<img src="src/img/arrow.png">
- 		</a>
- 	</div>
- 	<div class="about" id="down-about">
- 		<div class="about-overlay"></div>
- 		<p class="content-block-title">ОБО МНЕ </p>
- 		<div class="content-block-title-line"></div>
- 		<div class="about-container" >
- 			<div class="about-text">
- 				<div class="about-text-overflow">
- 				<p class="about-text-title">Меня зовут Александр, и я 
- 				<br>
- 				веб-разработчик</p>
- 				<div class="about-text-title-line"></div>
- 				<p class="about-text-description">
- 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
- 				</p>
- 				</div>
- 			</div>
- 			<div class="next-wrapper">
-	 			<div class="about-photo"></div>
-	 			<div class="next-button">
-	 				<a href="https://github.com/GauwainR">Подробнее обо мне</a>
-	 				<img src="src/img/about-me.png">
-	 			</div>
- 			</div>
- 		</div>
- 	</div>
- 	<div class="skills">
- 		<div class="block-content-separator"></div>
- 		<p class="content-block-title">Навыки</p>
- 		<div class="content-block-title-line"></div>
- 		<div class="skills-group-block">
- 			<div class="skill-block">
- 				<div class="skill-block-title-wrapper">
-	 				<p class="skill-block-name-title">
-	 					back-end
-	 				</p>
-	 				<div class="skill-block-title-line"></div>
-	 				<p class="skill-block-name-title">
-	 					РАЗРАБОТКА
-	 				</p>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.1</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.2</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.3</p>
-	 					<p class="skill-description text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 			</div>
- 			<div class="skill-block">
- 				<div class="skill-block-title-wrapper">
-	 				<p class="skill-block-name-title">
-	 					front-end
-	 				</p>
-	 				<div class="skill-block-title-line"></div>
-	 				<p class="skill-block-name-title">
-	 					РАЗРАБОТКА
-	 				</p>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.1</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.2</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.3</p>
-	 					<p class="skill-description text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 			</div>
- 			<div class="skill-block">
- 				<div class="skill-block-title-wrapper">
-	 				<p class="skill-block-name-title">
-	 					ux/ui
-	 				</p>
-	 				<div class="skill-block-title-line"></div>
-	 				<p class="skill-block-name-title">
-	 					ДИЗАЙН
-	 				</p>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.1</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.2</p>
-	 					<p class="skill-description text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 				<div class="skills-block-description">
- 					<div class="skills-description-wrapper">
-	 					<p class="skill-description number">0.3</p>
-	 					<p class="skill-description text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis mauris urna</p>
-	 				</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- 	<div class="works">
- 		<div class="block-content-separator"></div>
- 		<p class="content-block-title">Работы</p>
- 		<div class="content-block-title-line"></div>
- 		<div class="works-content">
- 			<div class="group-of-two-works-block">
-	 			<div class="work-block">
-	 				<img id="site-img" src="src/img/site.png" alt="">
-	 				<div class="site-desription">
-	 					<div class="site-description-wrapper">
-	 						<p class="site-title">WORKTALK</p>
-	 						<p class="site-title-description">деловое общение на разных уровнях</p>
-	 					</div>
-	 					<img src="src/img/sites-arrow.png" alt="">
-	 				</div>
-	 			</div>
-	 			<div class="work-block">
-	 				<img id="site-img" src="src/img/site.png" alt="">
-	 				<div class="site-desription">
-	 					<div class="site-description-wrapper">
-	 						<p class="site-title">WORKTALK</p>
-	 						<p class="site-title-description">деловое общение на разных уровнях</p>
-	 					</div>
-	 					<img src="src/img/sites-arrow.png" alt="">
-	 				</div>
-	 			</div>
- 			</div>
- 			<div class="group-of-two-works-block">
-	 			<div class="work-block">
-	 				<img id="site-img" src="src/img/site.png" alt="">
-	 				<div class="site-desription">
-	 					<div class="site-description-wrapper">
-	 						<p class="site-title">WORKTALK</p>
-	 						<p class="site-title-description">деловое общение на разных уровнях</p>
-	 					</div>
-	 					<img src="src/img/sites-arrow.png" alt="">
-	 				</div>
-	 			</div>
-	 			<div class="work-block">
-	 				<img id="site-img" src="src/img/site.png" alt="">
-	 				<div class="site-desription">
-	 					<div class="site-description-wrapper">
-	 						<p class="site-title">WORKTALK</p>
-	 						<p class="site-title-description">деловое общение на разных уровнях</p>
-	 					</div>
-	 					<img src="src/img/sites-arrow.png" alt="">
-	 				</div>
-	 			</div>
- 			</div>
- 		</div>
- 		<button class="all-information-button"><p>портфолио</p></button>		
- 	</div>
- 	<div class="feedback">
- 		<div class="block-content-separator"></div>
- 		<p class="content-block-title">Отзывы</p>
- 		<div class="content-block-title-line"></div>
- 		<div class="feedback-blocks-wrapper">
- 			<div class="feedback-high-block">
- 				<div class="feedback-title">
- 					<div class="profile-icon">
- 					</div>
- 					<div class="profile-description">
- 						<p class="name">Lorem ipsum</p>
- 						<div class="line"></div>
- 						<p class="corporation">Lorem ipsum dolor sit amet™</p>
- 						<div class="line"></div>
- 					</div>
- 				</div>
- 				<p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				</p>
- 			</div>
- 			<div class="feedback-width-blocks-wrapper">
- 				<div class="feedback-width-block">
- 					<div class="width-block-wrapper">
-	 					<div class="profile-description">
-		 					<p class="name">Lorem ipsum</p>
-							<div class="line"></div>
-							<p class="corporation">Lorem ipsum dolor sit amet™</p>
-						</div>
-						<div class="icon-and-description-wrapper">
-							<div class="profile-icon"></div>
-							<p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						</div>
+			</div>
+			<div class="second-row-section">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 5</p>
+						<div class="line">	</div>
 					</div>
- 				</div>
- 				<div class="feedback-width-block">
- 					<div class="width-block-wrapper">
-	 					<div class="profile-description">
-		 					<p class="name">Lorem ipsum</p>
-							<div class="line"></div>
-							<p class="corporation">Lorem ipsum dolor sit amet™</p>
-						</div>
-						<div class="icon-and-description-wrapper">
-							<div class="profile-icon"></div>
-							<p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						</div>
+					<p class="step-descpription">Проверка актуальности цены и подтверждение бронирования</p>
+				</div>
+				<img src="src/img/arrow.png">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 6</p>
+						<div class="line">	</div>
 					</div>
- 				</div>
- 			</div>
- 		</div>
- 		<button class="all-information-button"><p>Все отзвывы</p></button>
- 	</div>
- 	<div class="footer">
- 		<div class="block-content-separator"></div>
- 		<p class="content-block-title">Связаться со мной</p>
- 		<div class="content-block-title-line"></div>
- 		<form>
- 			<div class="data-person-block">
-	 			 <input class="data-about-person" type = "text"  name = "firstname" placeholder = "Ваше имя">
-	 			 <input class="data-about-person" type = "text"  name = "surname" placeholder = "Ваше фамилия">
-	 			 <input class="data-about-person" type = "email"  name = "email" placeholder = "Ваш e-mail">
- 			</div>
- 			 <textarea placeholder="Сообщение"></textarea>
- 			 <button class="all-information-button"><p>Отправить</p></button>
- 		</form>
- 		<div class="block-content-separator"></div>
- 		<div class="footer-information">
- 			<div class="copyright-wrapper">
- 				<p class="text-style copyright">© Alexander Karachkin, 2021</p>
- 				<p class="text-style email">gauwainwork@gmail.com</p>
- 			</div>
- 			<div class="links-wrapper">
- 				<a class="text-style link" href="#">telegram</a>
- 				<div class="line"></div>
- 				<a class="text-style link" href="#">instagram</a>
- 				<div class="line"></div>
- 				<a class="text-style link" href="#">github</a>
- 				<div class="line"></div>
- 				<a class="text-style link" href="#">VK</a>
- 			</div>
- 			<a class="text-style cooperation" href="#">Сотрудничество</a>
- 		</div>
- 	</div>			
- </body>
- </html>
+					<p class="step-descpription">Ваш персональный менеджер</p>
+				</div>
+				<img src="src/img/arrow.png">
+				<div class="step">
+					<div class="step-title">
+						<p class="title">Шаг 7</p>
+						<div class="line">	</div>
+					</div>
+					<p class="step-descpription">Подтверждение тура</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="line"></div>
+	<section class="events" id="events">
+		<p class="title">Акции</p>
+		<div class="wrapper">
+			<div class="fisrt-row-events">
+				<div class="event-section">
+					<img src="src/img/sales-deti.jpg" alt="">
+					<div class="info">
+						<p class="title">Скидки для детей</p>
+						<div class="line"></div>
+						<p class="description">Дети до 14 лет получают скидку 10%. Дети могут пойти в поход только в сопровождении родителей или ответственных лиц (дяди, тети, старшего брата или сестры и т.д.).</p>
+					</div>
+				</div>
+				<div class="event-section">
+					<img src="src/img/images.jpg" alt="">
+					<div class="info">
+						<p class="title">Скидка по раннему бронированию</p>
+						<div class="line"></div>
+						<p class="description">Полностью оплатив тур заранее, Вы получаете скидку от 10 до 20%. В каждом конкретном случае сроки предоплаты и процент скидки указаны на страничке с туром.</p>
+					</div>
+				</div>
+				<div class="event-section">
+					<img src="src/img/1.jpg" alt="">
+					<div class="info">
+						<p class="title">Скидка за компанию</p>
+						<div class="line"></div>
+						<p class="description">Если вы собрали компанию родственников, друзей или коллег в количестве от 6 человек, то вы на всю вашу компанию получаете скидку 10% от общей стоимости тура. Внимание! На конные походы и сплавы данная скидка не распространяется!</p>
+					</div>
+				</div>
+			</div>
+			<div class="second-row-events">
+				<div class="event-section">
+					<img src="src/img/sales002.jpg" alt="">
+					<div class="info">
+						<p class="title">Скидка для постоянных клиентов</p>
+						<div class="line"></div>
+						<p class="description">Многие туристы, влюблённые в горы, ходят с нами в поход много раз. Безусловно, они получают скидку в 10% от стоимости путёвки.</p>
+					</div>
+				</div>
+				<div class="event-section">
+					<img src="src/img/sales001.jpg" alt="">
+					<div class="info">
+						<p class="title">Скидка за отчет о походе</p>
+						<div class="line"></div>
+						<p class="description">Если у вас есть свой страничка в соц.сетях (Instagram, VK), сайт, ЖЖ, онлайн-дневник или блог, то вы можете получить скидку, сделав отчет о походе на своей странице, обязательна в Вашем отчете должна быть ссылка на наш сайт</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<form action="">
+             <input id="email" name="email" type="email" placeholder="Введите E-mail"/>
+			<button>Подписаться на акции</button>
+		</form>
+	</section>
+	<div class="line"></div>
+	<section class="search">
+		<p class="title">Поиск походов</p>
+		<form action="search.html">
+			<div class="search-select">
+				<select name="region" id="">
+					<option value="">Алтай</option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+				<select name="count-of-users" id="">
+					<option value="">1</option>
+					<option value="">2</option>
+					<option value="">3</option>
+					<option value="">4</option>
+					<option value="">5</option>
+				</select>
+				<select name="level" id="">
+					<option value="">Начальный</option>
+					<option value="">Продвинутый</option>
+					<option value="">Профессиональный</option>
+				</select>
+			</div>
+			<input type="date" id="date" name="date"/>
+			<button>Найти</button>
+		</form>
+	</section>
+	<div class="line"></div>
+	<footer>
+		<p>Телефон “8 (800) 555-33-10”</p>
+		<nav>
+			<Ul>
+				<a href="index.html">
+					<li>Основное</li>
+				</a>
+				<a href="booking.html">
+					<li>Бронирование</li>
+				</a>
+				<a href="search.html">
+					<li>Поиск маршрутов</li>
+				</a>
+			</Ul>
+		</nav>
+	</footer>
+</body>
+</html>
